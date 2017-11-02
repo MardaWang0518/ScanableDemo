@@ -18,7 +18,7 @@
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:drawableTop="@drawable/ic_image"
-            android:text="Original"
+            android:text="原图"
             android:textColor="@android:color/white" />
 
         <Button
@@ -29,7 +29,7 @@
             android:background="@android:color/transparent"
             android:drawableTop="@drawable/ic_enhamce_image"
             android:singleLine="true"
-            android:text="Magic color"
+            android:text="魔法色彩"
             android:textColor="@android:color/white" />
 
         <Button
@@ -40,7 +40,7 @@
             android:background="@android:color/transparent"
             android:drawableTop="@drawable/ic_gray"
             android:singleLine="true"
-            android:text="Gray Mode"
+            android:text="昏暗模式"
             android:textColor="@android:color/white" />
 
         <Button
@@ -51,7 +51,7 @@
             android:background="@android:color/transparent"
             android:drawableTop="@drawable/ic_black_and_white"
             android:singleLine="true"
-            android:text="B and W"
+            android:text="黑白照片"
             android:textColor="@android:color/white" />
     </LinearLayout>
 
@@ -63,7 +63,7 @@
         android:background="@color/bottom_background_color"
         android:orientation="horizontal"
         android:padding="@dimen/bottom_bar_padding"
-        android:text="@string/done" />
+        android:text="保存" />
 
 
     <FrameLayout
