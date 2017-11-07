@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             }else if(requestCode == SCAN_CODE && data!=null ){
                 String result = data.getStringExtra(CaptureActivity.SCAN_QRCODE_RESULT);
-                Bitmap bmp = data.getParcelableExtra(CaptureActivity.SCAN_QRCODE_BITMAP);
+//                Bitmap bmp = data.getParcelableExtra(CaptureActivity.SCAN_QRCODE_BITMAP);
                 Log.d("test_result",result.toString());
                 Toast.makeText(this,result,Toast.LENGTH_SHORT).show();
 //                if(result.contains("https://")){
